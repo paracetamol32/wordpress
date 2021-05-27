@@ -1,5 +1,4 @@
-FROM wordpress:php8.0
-
+FROM wordpress:latest
 ADD --chown=www-data:www-datafile html /var/www/html
 
 
