@@ -1,6 +1,6 @@
 FROM wordpress:latest
-WORKDIR /var/www/html
-ADD  html /var/www/html
+
+ADD  tiria-theme /var/www/html/wp-content/
 
 
 
