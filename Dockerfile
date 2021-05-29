@@ -1,6 +1,6 @@
 FROM wordpress:latest
 
-ADD  tiria-theme /var/www/html/wp-content/
+COPY --chown=www-data:www-data tiria-theme /usr/src/wordpress/wp-content/
 
 
 
