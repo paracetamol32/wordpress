@@ -1,6 +1,6 @@
 FROM wordpress:latest
-
-ADD --chown=www-data html /var/www/html
+WORKDIR /var/www/html
+ADD  html /var/www/html
 
 
 
